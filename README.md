@@ -71,7 +71,7 @@ The final dashboard combines four KPI summary cards with five charts, all built 
 
 - Excel Tables & structured references
 - PivotTables & PivotCharts (Data Model)
-- DAX-free Distinct Count via `UNIQUE()` / `COUNTA()`
+- Distinct Order Count via `UNIQUE()` / `COUNTA()`
 - Text-to-Columns for date cleaning
 - Dynamic KPI cards linked to calculated cells
 - Custom color theming, data labels, and chart formatting
