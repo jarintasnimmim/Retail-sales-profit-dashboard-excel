@@ -13,7 +13,7 @@ A retail superstore needed a clear, at-a-glance view of its sales and profit per
 - **Source:** Sample Superstore Dataset (Kaggle)
 - **Size:** 9,994 rows × 21 columns
 - **Time period:** 2014–2017
-- **Key fields:** Order Date, Region, Category, Sub-Category, Segment, Sales, Profit, Quantity, Discount
+- **Key fields:** Order Date, Region, Category, Segment, Product Name, Sales, Profit, Quantity
 
 ![Raw Data](raw-data-preview.png)
 
@@ -61,7 +61,7 @@ The final dashboard combines four KPI summary cards with five charts, all built 
 
 ##  Key Insights
 
-- **Furniture drives high revenue but low profit.** Despite the second-highest sales ($742K), Furniture generated the lowest profit ($18.5K) of the three categories — signaling a margin problem worth investigating (likely tied to high discounting).
+-  **Furniture drives high revenue but low profit.** Despite the second-highest sales ($742K), Furniture generated the lowest profit ($18.5K) of the three categories — a margin gap worth further investigation.
 - **Technology has the best profit efficiency.** With fewer orders (1,544) than Office Supplies (3,742), Technology generated the highest Sales and Profit — driven by higher-value items like copiers and printers.
 - **West region leads on both Sales and Profit**, while **South has the fewest orders but outperforms Central on profit**, suggesting a smaller but more profitable customer base.
 - **Consumer segment dominates order volume**, accounting for the largest share of both Sales and Profit among the three segments.
