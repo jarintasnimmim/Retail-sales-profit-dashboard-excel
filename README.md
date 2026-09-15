@@ -4,11 +4,11 @@ An interactive Excel dashboard analyzing retail sales and profit performance, bu
 
 ![Dashboard Preview](dashboard-preview.png)
 
-## 📌 Business Problem
+##  Business Problem
 
 A retail superstore needed a clear, at-a-glance view of its sales and profit performance across regions, product categories, customer segments, and time — to identify which parts of the business are driving revenue, which are underperforming on margin, and where opportunities exist to improve profitability.
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** Sample Superstore Dataset (Kaggle)
 - **Size:** 9,994 rows × 21 columns
@@ -17,16 +17,16 @@ A retail superstore needed a clear, at-a-glance view of its sales and profit per
 
 ![Raw Data](raw-data-preview.png)
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 
 Before analysis, the raw dataset was checked and cleaned in Excel:
-- ✅ Checked for duplicate rows (none found)
-- ✅ Checked for blank/missing values (none found)
-- ✅ Converted Order Date and Ship Date from text to proper date format
-- ✅ Verified numeric fields (Sales, Profit, Quantity, Discount) were correctly typed
-- ✅ Verified category fields (Segment, Region, Category) had no spelling inconsistencies
+-  Checked for duplicate rows (none found)
+-  Checked for blank/missing values (none found)
+-  Converted Order Date and Ship Date from text to proper date format
+-  Verified numeric fields (Sales, Profit, Quantity, Discount) were correctly typed
+-  Verified category fields (Segment, Region, Category) had no spelling inconsistencies
 
-## 🔎 Analysis (PivotTables)
+##  Analysis (PivotTables)
 
 Five PivotTables were built to summarize the cleaned data from different angles:
 
@@ -40,7 +40,7 @@ Five PivotTables were built to summarize the cleaned data from different angles:
 | Segment | Sales, Profit, and Order count by Customer Segment |
 | Top 10 Products | Top 10 products ranked by Profit |
 
-## 📈 Dashboard
+##  Dashboard
 
 The final dashboard combines four KPI summary cards with five charts, all built using PivotCharts linked to the underlying PivotTables.
 
@@ -59,7 +59,7 @@ The final dashboard combines four KPI summary cards with five charts, all built 
 4. Sales by Segment (Doughnut)
 5. Top 10 Products by Profit (Bar)
 
-## 💡 Key Insights
+##  Key Insights
 
 - **Furniture drives high revenue but low profit.** Despite the second-highest sales ($742K), Furniture generated the lowest profit ($18.5K) of the three categories — signaling a margin problem worth investigating (likely tied to high discounting).
 - **Technology has the best profit efficiency.** With fewer orders (1,544) than Office Supplies (3,742), Technology generated the highest Sales and Profit — driven by higher-value items like copiers and printers.
@@ -67,7 +67,7 @@ The final dashboard combines four KPI summary cards with five charts, all built 
 - **Consumer segment dominates order volume**, accounting for the largest share of both Sales and Profit among the three segments.
 - **Revenue grew over the 2014–2017 period**, but Profit stayed comparatively flat — highlighting that top-line growth did not translate proportionally into bottom-line gains.
 
-## 🛠️ Tools & Techniques Used
+##  Tools & Techniques Used
 
 - Excel Tables & structured references
 - PivotTables & PivotCharts (Data Model)
@@ -76,7 +76,7 @@ The final dashboard combines four KPI summary cards with five charts, all built 
 - Dynamic KPI cards linked to calculated cells
 - Custom color theming, data labels, and chart formatting
 
-## 📂 Files
+##  Files
 
 - `Sales superstore dataset.xlsx` — full workbook (raw data, cleaned data, calculations, PivotTables, dashboard)
 - `dashboard-preview.png` — full dashboard screenshot
@@ -84,7 +84,7 @@ The final dashboard combines four KPI summary cards with five charts, all built 
 - `raw-data-preview.png` — raw dataset preview
 - `pivottable-summary.png` — PivotTable summary preview
 
-## 🔭 Next Steps / Limitations
+##  Next Steps / Limitations
 
 - Add interactivity using Slicers connected across all PivotCharts
 - Add Average Order Value and Profit Margin % as additional KPIs
