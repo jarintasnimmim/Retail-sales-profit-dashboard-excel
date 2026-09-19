@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/a0b13a94-bdcf-4673-99c3-a2ed5d596205
 # Retail Sales & Profit Performance Dashboard (Excel)
  
 An interactive Excel dashboard analyzing retail sales and profit performance, built from a real-world transactional dataset (9,994 orders, 2014–2017). The project covers the full analytics workflow: data cleaning, PivotTable analysis, chart design, and dashboard assembly.
@@ -51,12 +49,14 @@ The final dashboard combines five KPI summary cards with five charts, all built 
 - Total Quantity Sold: 37,873
 - Total Orders: 5,009 (unique orders, calculated using `UNIQUE()`/`COUNTA()`)
 - Profit Margin: 12.5%
+  
 **Charts:**
 1. Sales by Category (Column)
 2. Sales by Region (Bar)
 3. Sales & Profit Trend, 2014–2017 (Line, dual-axis)
 4. Sales by Segment (Doughnut)
 5. Top 10 Products by Profit (Horizontal Bar)
+   
 **Interactivity:**
 - 3 Slicers — Category, Region, and Segment — connected across all PivotCharts via Report Connections, so filtering by any one of them updates every chart on the dashboard simultaneously
 
