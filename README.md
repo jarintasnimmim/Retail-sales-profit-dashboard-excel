@@ -42,9 +42,8 @@ Five PivotTables were built to summarize the cleaned data from different angles:
  
 The final dashboard combines five KPI summary cards with five charts, all built using PivotCharts linked to the underlying PivotTables — plus interactive Slicers for filtering.
  
-![KPI Summary](kpi-summary.png)
- 
 **KPIs:**
+![KPI Summary](kpi-summary.png)
 - Total Revenue: $2,297,201
 - Total Profit: $286,397
 - Total Quantity Sold: 37,873
