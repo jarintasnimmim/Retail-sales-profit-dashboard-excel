@@ -57,6 +57,7 @@ The final dashboard combines five KPI summary cards with five charts, all built 
 5. Top 10 Products by Profit (Horizontal Bar)
 **Interactivity:**
 - 3 Slicers — Category, Region, and Segment — connected across all PivotCharts via Report Connections, so filtering by any one of them updates every chart on the dashboard simultaneously
+  
 *Demo: filtering the dashboard using Slicers*
 
 https://github.com/user-attachments/assets/96d5468f-685f-4454-9c2f-a54749565eab
